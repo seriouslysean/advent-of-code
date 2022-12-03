@@ -1,0 +1,26 @@
+{
+  "name": "advent-of-code",
+  "version": "0.1.0",
+  "description": "Advent of Code challenges",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seriouslysean/advent-of-code.git"
+  },
+  "keywords": [
+    "Christmas",
+    "Holiday",
+    "JavaScript",
+    "Node"
+  ],
+  "author": "Sean Kennedy <sean@codeserious.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seriouslysean/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/seriouslysean/advent-of-code#readme"
+}

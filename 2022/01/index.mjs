@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 
-let file = fs.readFileSync('./01-input.txt', 'utf8');
+const file = fs.readFileSync('./input.txt', 'utf8');
 
 const elves = file.split('\n').reduce((acc, calories) => {
     // Make sure we currently have an elf

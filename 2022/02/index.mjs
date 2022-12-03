@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 
-let file = fs.readFileSync('./02-input.txt', 'utf8');
+const file = fs.readFileSync('./input.txt', 'utf8');
 
 /*
 ROCK = 1
