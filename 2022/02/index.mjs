@@ -66,9 +66,7 @@ const shouldPlay = (move, result) => {
 }
 
 const { part1, part2 } = file.split("\n").reduce((acc, round) => {
-    if (!round) {
-        return acc;
-    }
+    if (!round) return acc;
 
     // ['C Y'] = SCISSORS vs. PAPER
     const [opponentMove, playerMove] = round.split(' ');
