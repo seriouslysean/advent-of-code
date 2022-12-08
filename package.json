@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/seriouslysean/advent-of-code/issues"
   },
-  "homepage": "https://github.com/seriouslysean/advent-of-code#readme"
+  "homepage": "https://github.com/seriouslysean/advent-of-code#readme",
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
 }
